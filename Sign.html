@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/boostrap-icons/font/boostrap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+<style>
+    body{
+        background-size: cover;
+
+    }
+    .shade{
+        width:100vw;
+        background-color:rgba(0,0,0,0.7);
+        height:200vh;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding:20px;
+    }
+    .brand{
+        color:red;
+        font-size:50px;
+        font-weight: bold;
+        
+    }
+    .language{
+        color:white;
+        font-size:30px;
+        padding:20px;
+        margin-right: 70px;
+        display: flex;
+    }
+    span button{border-radius: 10px;
+        background-color: red;
+        color:rgb(255, 255, 255);
+        height:40px;
+        font-size:20px;
+    }
+    section{
+        color:rgb(0, 0, 0);
+        
+    }
+    .tittle{
+        font-size:50px;
+        font-weight: bold;
+        width:50%;
+    }
+    .sub-title{
+       font-size:15px;
+
+    }
+    .email{
+        padding:5px;
+        width:300px;
+        color:white;
+        display: inline-block;
+        height:50px;
+        background-color: rgba(0,0,0,0.3);
+        color:white;
+        border-radius: 5px;
+        border-bottom:1px solid white;
+        border-left:1px solid white;
+        border-top:1px solid white;
+        border-right:1px solid white;
+    }
+    .buttonstart{
+         border-radius: 10px;
+         width:200px;
+         height:55px;
+         font-size:20px;
+    }
+    select{border: none;
+        background-color: rgba(0,0,0,0.2);
+        font-size:20px;
+        margin-right: 10px;
+        border-radius: 8px;
+        height:40px;
+        width:150px;
+        
+    }
+    select i{text-align: left;
+        color:white;
+        font-size:10px;
+    }
+    .demo{font-size: 15px;
+        color:red;
+        
+        
+    }
+    .signin{
+        background-color:rgba(0, 0, 0,0.6);
+        width:400px;
+        height:600px;
+        margin-left: 35%;
+        margin-right: 50%;
+    }
+    .signc{
+        font-size:30px;
+        color:white;
+        font-weight: bold;
+        padding: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .form{
+        
+        height: 320px;
+    }
+    .input input{color:white;
+        height: 55px;
+        width:300px;
+        margin-left: 50px;
+        border-radius: 6px;
+        background-color:#383838;
+        border:none;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .input1 input{
+        height: 55px;
+        width:300px;
+        margin-left: 50px;
+        border-radius: 6px;
+        background-color:#ef0e0e;
+        border:none;
+        padding: 10px;
+        color:white;
+        margin-top: 32px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .remeber{
+        color:rgb(190, 175, 175);
+        margin-left: 50px;
+        width:300px;
+
+    }
+    .remeber input{
+    
+        color:rgb(119, 107, 107);
+    }
+    .remeber a{
+        color:rgb(190, 175, 175);
+        float: right;
+    }
+    .fromf{margin-left: 50px;
+        width:450px;
+        color:rgb(190, 175, 175);
+        font-size:16px;
+    }
+    .formf p{
+        font-size:4px;
+    }
+    .fromf a{
+        color:white;
+    }
+    .mss{
+        color:orange;
+        font-size:12px;
+        margin-left: 50px;
+       
+    }
+</style>
+</head>
+<body background="banner.jpg">
+    <div class="shade">
+      <header>
+        <div>
+           <span class="brand">NETFLIX</span>
+        </div>
+      </header>
+      <section>
+         <div class="signin">
+           <div class="signc">
+            Sign In
+           </div>
+           <div class="form">
+            <form id="form">
+                <label for="" class="input">
+                <input type="text" placeholder="Email or Phone number" id="maill"></label>
+                <div class="mss" id="alerd">
+                    
+                </div>
+                <label for="" class="input">
+                <input type="password" placeholder="Password" id="passs"></label>
+                <div class="mss" id="aler2">
+                    
+                </div>
+                <!--------This alert--------->
+                <label class="input1">
+                <input type="button" onclick="validd()" value="Sign in">
+                </label>
+                <label class="remeber">
+                 <input type="checkbox">Remeber me
+                 <a href="">Need help?</a>
+                </label>
+            </form>
+           </div>
+           <div class="fromf">
+           New to Netflix?<a href="">Sign up now.</a><br><br>
+            <p style="font-size:10px">This page is protected by Google reCAPTCHA to</p>
+            <p style="font-size:12px">ensure you're not a bot.<a href="" style="color:blue"> Learn more.</a></p>
+           </div>
+         </div>
+
+      </section>
+    </div>
+</body>
+<script>
+  function validd(){
+    let email=document.getElementById('maill').value;
+    let alerr=document.getElementById('alerd');
+    let pass=document.getElementById('passs').value;
+   
+    let aler2=document.getElementById('aler2');
+    
+    if(email==''){
+        alerr.display="block";
+     alerr.innerHTML="Please enter a valid email address or phone number.";
+     document.getElementById('maill').style="border-bottom:2px solid orange;";
+    }
+    else if(pass==''){
+        aler2.display="block";
+     aler2.innerHTML=" Your password must contain between 4 and 60 characters.";
+     document.getElementById('passs').style="border-bottom:2px solid orange;";
+     
+    }
+    else{
+        alerr.display="none";
+        aler2.display="none";
+        document.getElementById("form").submit();
+    }
+  }
+</script>
+</html>
